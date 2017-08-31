@@ -12,6 +12,10 @@
 		6527DB401F57E8D400441D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6527DB3E1F57E8D400441D42 /* Main.storyboard */; };
 		6527DB421F57E8D400441D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6527DB411F57E8D400441D42 /* Assets.xcassets */; };
 		6527DB451F57E8D400441D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6527DB431F57E8D400441D42 /* LaunchScreen.storyboard */; };
+		6527DB581F57F6A500441D42 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6527DB571F57F6A500441D42 /* libiconv.tbd */; };
+		6527DB5C1F57F84F00441D42 /* libjre_emul.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6527DB5B1F57F84F00441D42 /* libjre_emul.a */; };
+		65308A751F58648700E6BED0 /* ObjectWithList.m in Sources */ = {isa = PBXBuildFile; fileRef = 65308A731F58648700E6BED0 /* ObjectWithList.m */; };
+		65308B571F58775200E6BED0 /* ProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65308B561F58775200E6BED0 /* ProtocolTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,16 @@
 		6527DB411F57E8D400441D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6527DB441F57E8D400441D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6527DB461F57E8D400441D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6527DB4D1F57E94800441D42 /* Xcode9SwiftProtocolTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xcode9SwiftProtocolTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		6527DB571F57F6A500441D42 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		6527DB591F57F6B500441D42 /* jre_emul.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = jre_emul.jar; path = ../../bc/j2objc/dist/lib/jre_emul.jar; sourceTree = "<group>"; };
+		6527DB5B1F57F84F00441D42 /* libjre_emul.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjre_emul.a; path = ../../bc/j2objc/dist/lib/libjre_emul.a; sourceTree = "<group>"; };
+		65308A731F58648700E6BED0 /* ObjectWithList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectWithList.m; sourceTree = "<group>"; };
+		65308A741F58648700E6BED0 /* ObjectWithList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectWithList.h; sourceTree = "<group>"; };
+		65308A761F58648C00E6BED0 /* ObjectWithList.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = ObjectWithList.java; sourceTree = "<group>"; };
+		65308B511F586FCD00E6BED0 /* ProtocolTest.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = ProtocolTest.java; sourceTree = "<group>"; };
+		65308B551F58775200E6BED0 /* ProtocolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolTest.h; sourceTree = "<group>"; };
+		65308B561F58775200E6BED0 /* ProtocolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6527DB5C1F57F84F00441D42 /* libjre_emul.a in Frameworks */,
+				6527DB581F57F6A500441D42 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,7 @@
 			children = (
 				6527DB391F57E8D400441D42 /* Xcode9SwiftProtocolTest */,
 				6527DB381F57E8D400441D42 /* Products */,
+				6527DB561F57F6A500441D42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,25 @@
 				6527DB411F57E8D400441D42 /* Assets.xcassets */,
 				6527DB431F57E8D400441D42 /* LaunchScreen.storyboard */,
 				6527DB461F57E8D400441D42 /* Info.plist */,
+				65308B511F586FCD00E6BED0 /* ProtocolTest.java */,
+				65308B551F58775200E6BED0 /* ProtocolTest.h */,
+				65308B561F58775200E6BED0 /* ProtocolTest.m */,
+				65308A761F58648C00E6BED0 /* ObjectWithList.java */,
+				65308A741F58648700E6BED0 /* ObjectWithList.h */,
+				65308A731F58648700E6BED0 /* ObjectWithList.m */,
+				6527DB4D1F57E94800441D42 /* Xcode9SwiftProtocolTest-Bridging-Header.h */,
 			);
 			path = Xcode9SwiftProtocolTest;
+			sourceTree = "<group>";
+		};
+		6527DB561F57F6A500441D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6527DB5B1F57F84F00441D42 /* libjre_emul.a */,
+				6527DB591F57F6B500441D42 /* jre_emul.jar */,
+				6527DB571F57F6A500441D42 /* libiconv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +130,7 @@
 				TargetAttributes = {
 					6527DB361F57E8D400441D42 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +173,8 @@
 			files = (
 				6527DB3D1F57E8D400441D42 /* ViewController.swift in Sources */,
 				6527DB3B1F57E8D400441D42 /* AppDelegate.swift in Sources */,
+				65308A751F58648700E6BED0 /* ObjectWithList.m in Sources */,
+				65308B571F58775200E6BED0 /* ProtocolTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +311,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Xcode9SwiftProtocolTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(HOME)/bc/j2objc/dist/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danieldickison.Xcode9SwiftProtocolTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Xcode9SwiftProtocolTest/Xcode9SwiftProtocolTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(HOME)/bc/j2objc/dist/include";
 			};
 			name = Debug;
 		};
@@ -288,13 +331,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Xcode9SwiftProtocolTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(HOME)/bc/j2objc/dist/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danieldickison.Xcode9SwiftProtocolTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Xcode9SwiftProtocolTest/Xcode9SwiftProtocolTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(HOME)/bc/j2objc/dist/include";
 			};
 			name = Release;
 		};
